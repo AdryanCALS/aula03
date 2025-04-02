@@ -3,10 +3,10 @@ combustivel = input("Digite o tipo de combustivel que foi abastecido(G-gasolina,
 gasolina = 5.8
 etanol = 4.9
 
-if combustivel == 'g':
+if combustivel == 'g' or 'G':
     valor = litros*gasolina
     print(f"O valor final foi: RS{valor:.2f}")
-elif combustivel == 'e':
+elif combustivel == 'e' or 'E':
     valor = etanol*litros
     print(f"O valor final foi: RS {valor:.2f}")
 else:
