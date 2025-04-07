@@ -8,7 +8,7 @@ horasaida = hora1+hora2
 if horasaida > 12 and horasaida <= 24:
     horasaida = horasaida -12
 elif horasaida > 24 and horasaida < 36:
-    horasaida = horasaida-12
+    horasaida = horasaida-24
 elif horasaida >= 36:
     horasaida = horasaida-36
 else:
